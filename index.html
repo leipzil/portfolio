@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Levina Nirwasita — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  
+  <link rel="stylesheet" href="style.css" />
+  </head>
+
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Levina Nirwasita</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#projects">Projects</a> 
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Bandung, Indonesia</p>
+      <h1 class="hero-title">Levina Nirwasita</h1>
+      <p class="hero-subtitle">
+        Studying Informatics Engineering at STEI-K ITB, with a specialisation in AI. Currently exploring fields in Computer Science like Data Science and Web Development.
+      </p>
+      <ul class="tag-list">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>HTML &amp; CSS</li>
+        <li>Flask</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-list">
+        <article class="project">
+          <div class="project-header">
+            <h3 class="project-name">Finance Tracker</h3>
+            <span class="project-meta">Python · Flask · SQLite</span>
+          </div>
+          <p class="project-desc">
+            A small web app for logging income and expenses, with running
+            totals and a category breakdown chart. Built to learn Flask
+            routing, Jinja2 templating, and how a backend hands data to a
+            browser.
+          </p>
+          <a
+            class="project-link"
+            href="https://github.com/leipzil/finance-tracker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <div class="project-header">
+            <h3 class="project-name">TV & Movie Watchlist</h3>
+            <span class="project-meta">Python · SQLite</span>
+          </div>
+          <p class="project-desc">
+            A command-line application for managing a personal media log.
+    Integrates with the TMDB API to retrieve title data, stores
+    records in a local SQLite database, and supports status
+    tracking, ratings, notes, and trending title queries.
+          </p>
+          <a
+            class="project-link"
+            href="https://github.com/leipzil/TV-Movie-Watchlist"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View on GitHub</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="section-inner">
+      <h2 class="section-title">Education</h2>
+      <div class="project-list">
+        <article class="project">
+          <div class="project-header">
+            <h3 class="project-name">Institut Teknologi Bandung</h3>
+            <span class="project-meta">2026–Now</span>
+          </div>
+          <p class="project-desc">
+            B.Sc. in Computer Science · Informatics Engineering
+          </p>
+        </article>
+
+        <article class="project">
+        <div class="project-header">
+          <h3 class="project-name">Highfield Jakarta</h3>
+          <span class="project-meta">2023–2026</span>
+        </div>
+        <p class="project-desc">
+          A-Level Track · Computer Science, Physics, Mathematics
+        </p>
+      </article>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="project-list">
+
+        <article class="project">
+          <div class="project-header">
+            <h3 class="project-name">Student Council</h3>
+            <span class="project-meta">Design & Decor Dept. · Registration Head</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Managed a team of 5 to handle participant data and registration for an inter-school competition
+consisting of 100+ participants and 20 schools.</li>
+            <li>Collaborated with a team of 17 for the design and creation of venue decor for school events.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-header">
+            <h3 class="project-name">Kidpublish</h3>
+            <span class="project-meta">Competition Staff</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Reviewed and evaluated over 100 story submissions as the preliminary judge for a primary school
+creative writing competition.</li>
+            <li>Served as an official scorer in the annual Kids’ Lit Quiz competition, collaborating with the
+committee to ensure accurate and timely data entry during live events.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <h2 class="section-title">Contact</h2>
+      <p>
+        Reach me at
+        <a href="mailto:nirwasita.levina@gmail.com">nirwasita.levina@gmail.com</a>.
+      </p>
+      <p class="footer-note">&copy; 2026 - Levina Nirwasita</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
